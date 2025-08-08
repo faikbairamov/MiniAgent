@@ -1,12 +1,27 @@
 {
   "name": "miniagent",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.2.0",
+  "description": "A lightweight AI agent with ReAct pattern using Google's Gemini API for intelligent problem-solving",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx ts-node index.ts",
+    "dev": "npx ts-node index.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist/",
+    "type-check": "npx tsc --noEmit"
   },
-  "keywords": [],
+  "keywords": [
+    "ai",
+    "agent",
+    "react",
+    "gemini",
+    "typescript",
+    "search",
+    "calculator",
+    "reasoning",
+    "acting"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
@@ -17,5 +32,8 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
