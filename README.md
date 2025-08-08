@@ -104,7 +104,7 @@ await runAgent(prompt);
 ### Search Function
 
 - **Purpose**: Performs real web searches using multiple APIs
-- **Implementation**: 
+- **Implementation**:
   - Primary: Wikipedia REST API for factual information
   - Fallback: DuckDuckGo Instant Answer API
   - Smart query variations for better results
@@ -131,6 +131,7 @@ The search function can handle various types of queries:
 - **Technology**: "Python programming language", "Machine Learning"
 
 Example output:
+
 ```
 Search results for "Paris":
 
@@ -214,12 +215,14 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 ## External APIs Used
 
 ### Wikipedia REST API
+
 - **Purpose**: Primary source for factual information
 - **Cost**: Free
 - **Rate Limits**: Generous limits for normal usage
 - **Documentation**: [Wikipedia API](https://en.wikipedia.org/api/rest_v1/)
 
 ### DuckDuckGo Instant Answer API
+
 - **Purpose**: Fallback search provider
 - **Cost**: Free
 - **Rate Limits**: No strict limits
@@ -251,6 +254,7 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 ## Recent Updates
 
 ### v1.1.0 - Real Search Implementation
+
 - ✅ Implemented real Wikipedia API integration
 - ✅ Added DuckDuckGo Instant Answer API as fallback
 - ✅ Smart query variations for better results
