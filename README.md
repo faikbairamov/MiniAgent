@@ -211,6 +211,7 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 - Rate limits per minute and per day
 - Token limits per request
 - Model availability and response times
+
 ## External APIs Used
 
 ### Wikipedia REST API
@@ -227,31 +228,6 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 - **Rate Limits**: No strict limits
 - **Documentation**: [DuckDuckGo API](https://duckduckgo.com/api)
 
-## Security Considerations
-
-- Never commit your API key to version control
-- The calculator function uses `eval()` - be cautious with user input
-- Consider implementing input validation for production use
-- Search queries are sent to external APIs - ensure privacy compliance
-
-## Troubleshooting
-
-### Common Issues
-
-1. **API Key Error**: Ensure your `.env` file contains the correct API key
-2. **Rate Limit Error**: Wait before making additional requests or upgrade your API plan
-3. **Model Not Found**: The project uses `gemini-1.5-flash` - ensure this model is available in your region
-4. **Search Not Working**: Check internet connectivity and API availability
-
-### Error Messages
-
-- `404 Not Found`: Check if the model name is correct
-- `429 Too Many Requests`: You've exceeded your API quota
-- `401 Unauthorized`: Invalid or missing API key
-- `Search failed`: Check internet connection and API availability
-
-## Recent Updates
-
 ### v1.1.0 - Real Search Implementation
 
 - ✅ Implemented real Wikipedia API integration
@@ -260,23 +236,3 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 - ✅ Comprehensive error handling
 - ✅ Formatted search results with emojis
 - ✅ Updated TypeScript configurations
-
-## License
-
-ISC License
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## Support
-
-For issues related to:
-
-- Google Gemini API: Visit [Google AI Studio Documentation](https://ai.google.dev/docs)
-- Wikipedia API: Visit [Wikipedia REST API Documentation](https://en.wikipedia.org/api/rest_v1/)
-- This project: Create an issue in the repository
