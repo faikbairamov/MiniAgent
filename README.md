@@ -307,5 +307,5 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 - Added DuckDuckGo Instant Answer API as fallback
 - Smart query variations for better results
 - Comprehensive error handling
-- ✅ Formatted search results with emojis
-- ✅ Updated TypeScript configurations
+- Formatted search results with emojis
+- Updated TypeScript configurations
