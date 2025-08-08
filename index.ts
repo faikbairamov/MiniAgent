@@ -1,4 +1,4 @@
 import { runAgent } from "./agents/agent";
 
-const prompt = "What is the capital of France and what is 23 * 7?";
+const prompt = "Tell me about Paris and calculate 15 * 8";
 runAgent(prompt);

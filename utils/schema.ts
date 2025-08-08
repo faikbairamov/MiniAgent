@@ -1,30 +1,34 @@
 export const functions = [
   {
-    name: "search",
-    description: "Searches the web for a given query",
-    parameters: {
-      type: "object",
-      properties: {
-        query: {
-          type: "string",
-          description: "The search query",
+    functionDeclarations: [
+      {
+        name: "search",
+        description: "Searches the web for a given query",
+        parameters: {
+          type: "object" as const,
+          properties: {
+            query: {
+              type: "string" as const,
+              description: "The search query",
+            },
+          },
+          required: ["query"],
         },
       },
-      required: ["query"],
-    },
-  },
-  {
-    name: "calculate",
-    description: "Evaluates a math expression",
-    parameters: {
-      type: "object",
-      properties: {
-        expression: {
-          type: "string",
-          description: "The math expression",
+      {
+        name: "calculate",
+        description: "Evaluates a math expression",
+        parameters: {
+          type: "object" as const,
+          properties: {
+            expression: {
+              type: "string" as const,
+              description: "The math expression",
+            },
+          },
+          required: ["expression"],
         },
       },
-      required: ["expression"],
-    },
+    ],
   },
 ];
