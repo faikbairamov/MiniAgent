@@ -211,7 +211,6 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 - Rate limits per minute and per day
 - Token limits per request
 - Model availability and response times
-
 ## External APIs Used
 
 ### Wikipedia REST API
