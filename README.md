@@ -293,19 +293,19 @@ This project uses the Gemini 1.5 Flash model, which is available on the free tie
 
 ### v1.2.0 - ReAct Implementation with Rate Limiting
 
-- ✅ Implemented ReAct (Reasoning and Acting) pattern
-- ✅ Added built-in rate limiting (2-second delays between calls)
-- ✅ Automatic retry logic for rate limit errors
-- ✅ Comprehensive error handling with fallback responses
-- ✅ Reduced maximum steps to 3 to stay within free tier limits
-- ✅ Improved logging with emojis and step-by-step visibility
-- ✅ Graceful degradation when APIs are unavailable
+- Implemented ReAct (Reasoning and Acting) pattern
+- Added built-in rate limiting (2-second delays between calls)
+- Automatic retry logic for rate limit errors
+- Comprehensive error handling with fallback responses
+- Reduced maximum steps to 3 to stay within free tier limits
+- Improved logging with emojis and step-by-step visibility
+- Graceful degradation when APIs are unavailable
 
 ### v1.1.0 - Real Search Implementation
 
-- ✅ Implemented real Wikipedia API integration
-- ✅ Added DuckDuckGo Instant Answer API as fallback
-- ✅ Smart query variations for better results
-- ✅ Comprehensive error handling
+- Implemented real Wikipedia API integration
+- Added DuckDuckGo Instant Answer API as fallback
+- Smart query variations for better results
+- Comprehensive error handling
 - ✅ Formatted search results with emojis
 - ✅ Updated TypeScript configurations
